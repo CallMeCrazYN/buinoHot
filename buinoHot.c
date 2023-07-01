@@ -35,14 +35,15 @@ void loop() {
   gb.display.setColor(BLUE);
   gb.display.drawPixel(pos[0],pos[1]);
 
-  move(pos,dir);
+  move(int []pos,int []dir);
 
 }
 
 
-void move(float pos[],float dir[]){
+void move(int pos[],int dir[]){
 
-  pos[0]+=dir[0];
-  pos[1]+=dir[1];
+
+
+}
 
 }
